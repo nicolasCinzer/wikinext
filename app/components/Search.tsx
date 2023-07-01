@@ -16,7 +16,7 @@ export default function Search() {
 
   return (
     <form
-      className=' col-span-2 flex justify-center gap-4'
+      className='col-span-2 flex justify-center gap-4'
       onSubmit={handleSubmit}
     >
       <input
@@ -26,7 +26,7 @@ export default function Search() {
         className='border p-2 border-white border-b-black text-black focus:outline-none'
         placeholder='Search'
       />
-      <button className=' bg-red-500 border-red-700 text-red-950 p-2 px-4 border rounded-lg transition-all duration-300 hover:text-black'>
+      <button className='bg-red-400 border-red-700 text-red-950 p-2 px-4 border rounded-lg transition-all duration-300 hover:text-black hover:bg-red-500'>
         <FaSearch />
       </button>
     </form>
